@@ -54,6 +54,9 @@ Meu foco é a ponte entre **dado bruto e decisão**: modelagem, transformação 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### 🔨 Ferramentas & DevOps
 
@@ -106,6 +109,21 @@ Meu foco é a ponte entre **dado bruto e decisão**: modelagem, transformação 
 
 ---
 
+### 🦁 Roots Tabacaria — Catálogo com Pedido via WhatsApp
+
+**Desafio:** Uma tabacaria de bairro em Recife enviava a lista de produtos manualmente pelo WhatsApp — catálogo sempre desatualizado e pedido lento de fechar.
+
+**Solução:** SPA em React + Vite com layouts dedicados para mobile e desktop, carrinho que gera a mensagem de pedido pronta e abre o WhatsApp, e painel administrativo sobre Supabase (com Row Level Security) para gerir produtos sem novo deploy.
+
+**Impacto:** Vitrine sempre atualizada pelo próprio lojista e pedido em poucos toques, sem cadastro nem gateway de pagamento. Site em produção.
+
+[![GitHub](https://img.shields.io/badge/Ver_Projeto-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/psholiveira/tabacaria-roots)
+[![Site](https://img.shields.io/badge/Site_no_ar-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://tabacaria-roots.vercel.app/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/psholiveira/tabacaria-roots)
+[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://github.com/psholiveira/tabacaria-roots)
+
+---
+
 ### 🌿 Recanto Moreira — Site de Conversão
 
 **Desafio:** Uma chácara de temporada precisava de presença digital que gerasse reservas de verdade — não apenas um site bonito, mas algo mensurável e encontrável no Google.
@@ -117,6 +135,36 @@ Meu foco é a ponte entre **dado bruto e decisão**: modelagem, transformação 
 [![GitHub](https://img.shields.io/badge/Ver_Projeto-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/psholiveira/recanto-moreira)
 [![Site](https://img.shields.io/badge/Site_no_ar-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://recanto-moreira.vercel.app/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://github.com/psholiveira/recanto-moreira)
+
+---
+
+### 💊 Rogério Dias — Portfólio Comercial
+
+**Desafio:** Um representante comercial de 15 laboratórios farmacêuticos precisava apresentar portfólio e catálogos a clientes sem mandar dezenas de PDFs pesados por mensagem.
+
+**Solução:** Site 100% estático em Astro + Tailwind CSS com animações GSAP (ScrollTrigger), todo o conteúdo em dois arquivos TypeScript tipados e catálogos servidos pelo Google Drive — o repositório guarda só os IDs.
+
+**Impacto:** Atualizar um laboratório ou catálogo é editar uma linha de dados; indicadores e cards se recalculam sozinhos. Site em produção.
+
+[![GitHub](https://img.shields.io/badge/Ver_Projeto-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/psholiveira/roger-port)
+[![Site](https://img.shields.io/badge/Site_no_ar-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://www.rogerioferreiradias.com)
+[![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)](https://github.com/psholiveira/roger-port)
+[![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)](https://github.com/psholiveira/roger-port)
+
+---
+
+### 🤖 AutomatIA — Landing Page Institucional
+
+**Desafio:** Uma empresa de automação com IA precisava de um site que convertesse visitantes em leads e comunicasse, de forma visual, o que um agente de IA faz.
+
+**Solução:** One-pager em Next.js (App Router) + TypeScript com navbar em dock flutuante, menu cinético em GSAP, contadores animados, simulação de chat com o agente e todo o texto centralizado em um único arquivo de conteúdo. Respeita `prefers-reduced-motion`.
+
+**Impacto:** Trocar copy não exige tocar em nenhum componente, e o padrão `<Reveal>` padroniza as animações de todas as seções. Site em produção.
+
+[![GitHub](https://img.shields.io/badge/Ver_Projeto-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/psholiveira/landing-automatia)
+[![Site](https://img.shields.io/badge/Site_no_ar-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://www.automatia.company/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://github.com/psholiveira/landing-automatia)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://github.com/psholiveira/landing-automatia)
 
 ---
 
@@ -179,7 +227,7 @@ Meu foco é a ponte entre **dado bruto e decisão**: modelagem, transformação 
 
 ## 📫 Vamos conversar
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-USUARIO-AQUI/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-oliveira-052516279/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/psholiveira)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pedroholiveira15@gmail.com)
 
